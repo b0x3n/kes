@@ -89,6 +89,13 @@
 
             $(`#${objConfigure['target_id']}`).html(__logo_html);
 
+            $(`#phone_icon`).css({
+                'background_image': `${window.__url}/public/images/icons/phone.png`
+            });
+            $(`#email_icon`).css({
+                'background_image': `${window.__url}/public/images/icons/email.png`
+            });
+
         };
 
 
