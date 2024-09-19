@@ -138,19 +138,20 @@
                     width: 48%;
                 } */
 
-                .tab_page_inner ul:nth-child(odd) {
-                    float: right;
-                    text-align: right;
-                }
-
                 .tab_page_inner ul li {
                     font-size: 11px;
                     margin-bottom: 0vh;
                 }
 
-                #tab_page_inner_list_commercial {
-                    float: right;
+                #tab_page_inner_list {
+                    float: left;
+                    padding:0;
+                    margin: 0;
                 }
+
+                /*#tab_page_inner_list_commercial {
+                    float: right;
+                } */
         
     }
 
