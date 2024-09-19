@@ -1,0 +1,114 @@
+/**********************************************************
+ *  kes/public/css/logo.css                               *
+ **********************************************************
+ *
+ *  Logo.
+ *
+ */
+
+    .logo {
+        position: relative;
+        float: left;
+        top: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+        .logo_section {
+            position: relative;
+            float: left;
+            width: auto;
+            height: auto;
+        }
+
+        .logo_section_empty {
+            position: relative;
+            clear: both;
+            float: left;
+            width: 0px;
+            height: 0px;
+        }
+
+            .logo_tile {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                float: left;
+                width: 4vh;
+                height: 4vh;
+                margin-bottom: 1vh;
+                font-family: BenchNine, sans-serif;
+                font-size: 24px;
+                border-radius: 3px;
+                color: #FFF;
+                background-image: linear-gradient(to right, #1E90FF, #4060B0);
+                opacity: 0.01;
+                box-shadow: 2px 2px 2px #DDD;
+            }
+
+            .logo_text {
+                position: relative;
+                float: left;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                height: 4vh;
+                width: auto;
+                font-family: BenchNine, sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                text-shadow: 2px 2px 2px #DDD;
+            }
+
+                .logo_text div {
+                    color: #4060B0;
+                    margin: 0px .5vh;
+                    height: 100%;
+                    width: auto;
+                    line-height: 5vh;
+                    opacity: 0.01;
+                }
+
+                .logo_text div:last-child {
+                    margin-right: 2vw;
+                }
+
+    .icon {
+        position: relative;
+        float: left;
+        width: 4.5vh;
+        height: 4.5vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        margin-right: 0;
+        margin-left: 1vw;
+        border-radius: 2.5vh;
+    }
+
+        .icon_inner {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: inherit;
+            height: inherit;
+            opacity: 0.01;
+            border-radius: inherit;
+            background-color: #FFCC20;
+        }
+
+
+    #phone_icon {
+        background-image: url(/public/images/icons/phone.png);
+    }
+
+    #email_icon {
+        background-image: url(/public/images/icons/email.png);
+    }
+
+    #lan_icon {
+        background-image: url(/public/images/icons/lan.png);
+    }
