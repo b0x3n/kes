@@ -73,9 +73,34 @@
 
                 .tab_page h1 {
                     font-family: "Open Sans", sans-serif;
-                    font-size: 24px;
-                    line-height: 24px;
+                    font-size: 20px;
+                    margin-bottom: 8px;
                 }
+
+                .tab_page_inner p {
+                    font-size: 22px;
+                    margin-bottom: 8px;
+                }
+
+                .tab_page_inner h2 {
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+
+                .tab_page_inner p {
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 12px;
+                }
+
+                .tab_page_inner a {
+                    color: #1E90FF;
+                    text-decoration: none;
+                }
+
+                    .tab_page_inner a:hover {
+                        color: #FFDD20;
+                    }
 
 
         #tab_title_about {

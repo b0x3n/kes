@@ -66,6 +66,8 @@
 
                     .logo_text {
                         font-size: 24px;
+                        height: 8vh;
+                        line-height: 9vh;
                     }
 
                     .logo_text div {
@@ -113,6 +115,18 @@
                 margin-top: 8vh;
                 width: 78%;
             }
+
+                .tab_page_inner p {
+                    font-size: 12px;
+                }
+
+                .tab_page_inner h1 {
+                    font-size: 26px;
+                }
+
+                .tab_page_inner h2 {
+                    font-size: 20px;
+                }
         
     }
 
@@ -141,5 +155,17 @@
             width: 6.5vh;
             border-radius: 3.25vh;
         }
+
+                .tab_page_inner p {
+                    font-size: 14px;
+                }
+
+                .tab_page_inner h1 {
+                    font-size: 28px;
+                }
+
+                .tab_page_inner h2 {
+                    font-size: 22px;
+                }
 
     }

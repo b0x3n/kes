@@ -50,8 +50,18 @@
 
             window.location.hash = __hash;
 
+            __load_pages();
             __show_page();
             __initialise_event_handlers();
+
+        };
+
+
+        const   __load_pages = () => {
+
+            __pages.forEach(page => {
+                $(`#tab_page_inner_${page}`).load(`${window.__url}/public/pages/${page}.html`);
+            });
 
         };
 
