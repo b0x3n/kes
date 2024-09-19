@@ -10,7 +10,7 @@
         float: left;
         margin: 3vh;
         width: calc(100% - 6vh);
-        height: 84vh;
+        height: 88vh;
         border-radius: 16px;
     }
     
@@ -74,7 +74,7 @@
                 .tab_page h1 {
                     font-family: "Open Sans", sans-serif;
                     font-size: 20px;
-                    margin-bottom: 8px;
+                    margin-bottom: 12px;
                 }
 
                 .tab_page_inner p {
@@ -88,7 +88,67 @@
                     margin-bottom: 8px;
                 }
 
+                .tab_page_inner h3 {
+                    width: 100%;
+                    text-align: center;
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 14px;
+                    margin-bottom: 4px;
+                    color: #FFDD20;
+                }
+
+                .tab_page_inner_list {
+                    position: relative;
+                    float: left;
+                    width: 48%;
+                    height: auto;
+                    background-color: rgba(255, 255, 255, .1);
+                    margin-bottom: 2vh;
+                }
+
+                    .tab_page_inner ul {
+                        position: relative;
+                        float: left;
+                        width: 100%;
+                    }
+
+                    .tab_page_inner ul div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: left;
+                        position: relative;
+                        width: 100%;
+                        float: left;
+                    }
+
+                    .tab_page_inner_list:nth-child(even) {
+                        float: left;
+                    }
+
+                    .tab_page_inner_list:nth-child(odd) {
+                        float: right;
+                    }
+
+                    .tab_page_inner ul li {
+                        display: flex;
+                        align-items: left;
+                        float: left;
+                        height: 3vh;
+                        line-height: 2.75vh;
+                        width: auto;
+                        background-color: rgba(0, 0, 0, .25);
+                        color: #1E90FF;
+                        text-shadow: -1px 1px 1px #000;
+                        margin: 2%;
+                        border-radius: 1.5vh;
+                        font-size: 8px;
+                        font-weight: bold;
+                        padding-left: 1.5vh;
+                    }
+
+
                 .tab_page_inner p {
+                    clear: both;
                     font-family: "Open Sans", sans-serif;
                     font-size: 12px;
                 }

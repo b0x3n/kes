@@ -114,6 +114,7 @@
             .content_inner {
                 margin-top: 8vh;
                 width: 78%;
+                height: 84%;
             }
 
                 .tab_page_inner p {
@@ -126,6 +127,29 @@
 
                 .tab_page_inner h2 {
                     font-size: 20px;
+                }
+
+                .tab_page_inner h3 {
+                    font-size: 14px;
+                }
+
+                /* .tab_page_inner_list {
+                    margin-left: 0;
+                    width: 48%;
+                } */
+
+                .tab_page_inner ul:nth-child(odd) {
+                    float: right;
+                    text-align: right;
+                }
+
+                .tab_page_inner ul li {
+                    font-size: 11px;
+                    margin-bottom: 0vh;
+                }
+
+                #tab_page_inner_list_commercial {
+                    float: right;
                 }
         
     }
@@ -166,6 +190,15 @@
 
                 .tab_page_inner h2 {
                     font-size: 22px;
+                }
+
+                .tab_page_inner h3 {
+                    font-size: 18px;
+                }
+
+                .tab_page_inner ul li {
+                    font-size: 12px;
+                    margin-bottom: 0vh;
                 }
 
     }
