@@ -92,7 +92,6 @@
 
             objConfig.images.forEach(image => {
                 _paths.push(`${objConfig.url}${objConfig.path}${image}`);
-                console.log(_paths[_paths.length - 1]);
             });
 
             let _image_no = Math.floor(Math.random() * objConfig.images.length);
@@ -112,7 +111,7 @@
                     'width': `${_image_width}px`
                 });
                 __rotation();
-            }, 200);
+            }, 500);
 
             $(window).on('resize', () => {
                 __handle_resize();
