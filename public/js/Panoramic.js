@@ -9,7 +9,7 @@
 
         objConfig = {
             'duration': 500000,
-            'url': '',
+            'url': 'https://b0x3n.github.io/kes',
             'path': '/public/images/panoramic/',
             'images': [
                 '360_landscape_1_clipped.jpg',
