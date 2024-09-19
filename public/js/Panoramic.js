@@ -92,6 +92,7 @@
 
             objConfig.images.forEach(image => {
                 _paths.push(`${objConfig.url}${objConfig.path}${image}`);
+                console.log(_paths[_paths.length - 1]);
             });
 
             let _image_no = Math.floor(Math.random() * objConfig.images.length);
@@ -102,7 +103,7 @@
             else
                 _direction = 'left';
 
-            $(`#panoramic_left`).append(`<img id="panoramic_image_left" src="${_paths[_image_no]}" width="auto" height="100%">`)
+            $(`#panoramic_left`).append(`<img id="panoramic_image_left" src="${_paths[_image_no]}" width="auto" height="100%">`);
 
             setTimeout(() => {            
                 $(`#panoramic_right`).append(`<img id="panoramic_image_right" src="${_paths[_image_no]}" width="auto" height="100%">`);
@@ -111,7 +112,7 @@
                     'width': `${_image_width}px`
                 });
                 __rotation();
-            }, 50);
+            }, 200);
 
             $(window).on('resize', () => {
                 __handle_resize();
