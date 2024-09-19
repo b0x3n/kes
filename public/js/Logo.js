@@ -75,13 +75,13 @@
                     <a id="phone_icon_link" class="icon_link" href="tel:07971693871">
                         <div class="icon" title="Call or message KES on 07971693871">
                             <div id="phone_icon_background" class="icon_inner">&nbsp;</div>
-                            <div id="phone_icon" class="icon" style="background-image: ${window.__url}/public/images/icons/phone.png; margin-left: 0; border: solid 2px #2980b7;">&nbsp;</div>
+                            <div id="phone_icon" class="icon" style="background-image: url(${window.__url}/public/images/icons/phone.png); margin-left: 0; border: solid 2px #2980b7;">&nbsp;</div>
                         </div>
                     </a>
                     <a id="email_icon_link" class="icon_link" href="mailto:info@kes-scotland.co.uk">
                         <div class="icon" title="Email KES at info@kes-scotland.co.uk">
                             <div id="email_icon_background" class="icon_inner">&nbsp;</div>
-                            <div id="email_icon" class="icon" style="background-image: ${window.__url}/public/images/icons/email.png; margin-left: 0; border: solid 2px #2980b7;">&nbsp;</div>
+                            <div id="email_icon" class="icon" style="background-image: url(${window.__url}/public/images/icons/email.png); margin-left: 0; border: solid 2px #2980b7;">&nbsp;</div>
                         </div>
                     </a>
                 </div>
