@@ -104,7 +104,6 @@
 
             $(`#panoramic_left`).append(`<img id="panoramic_image_left" src="${_paths[_image_no]}" width="auto" height="100%">`);
 
-            $(function() {
             setTimeout(() => {            
                 $(`#panoramic_right`).append(`<img id="panoramic_image_right" src="${_paths[_image_no]}" width="auto" height="100%">`);
                 _image_width = $(`#panoramic_image_left`).css('width').replace('px', '');
@@ -113,7 +112,6 @@
                 });
                 __rotation();
             }, 1000);
-        });
 
             $(window).on('resize', () => {
                 __handle_resize();
