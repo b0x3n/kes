@@ -72,6 +72,12 @@
 
             __logo_html += `
                 <div id="header_info" class="info">
+                    <a id="lan_icon_link" class="icon_link" href="tel:01416419235">
+                        <div class="icon" title="Call KES on 0141 641 9235">
+                            <div id="lan_icon_background" class="icon_inner">&nbsp;</div>
+                            <div id="lan_icon" class="icon" style="background-image: url(${window.__url}/public/images/icons/lan.png); margin-left: 0; border: solid 2px #2980b7;">&nbsp;</div>
+                        </div>
+                    </a>
                     <a id="phone_icon_link" class="icon_link" href="tel:07971693871">
                         <div class="icon" title="Call or message KES on 07971693871">
                             <div id="phone_icon_background" class="icon_inner">&nbsp;</div>
